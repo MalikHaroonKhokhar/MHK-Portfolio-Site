@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SheetMindAI",
+    "title": " SheetMind AI – Fully Local Excel RAG System ",
+    "description": "SheetMind AI is a production-grade, fully local Retrieval-Augmented Generation (RAG) system designed to intelligently query and analyze large Excel datasets using natural language.\n\nThis project demonstrates how modern AI systems can be integrated with structured business data to create powerful, privacy-first analytics tools, without relying on cloud APIs or external services.\n\nThe entire system runs locally using PostgreSQL, pgvector, FastAPI, Next.js, and Ollama models, making it suitable for enterprise environments where data privacy, cost control, and offline capability are critical.",
+    "techStack": [],
+    "image": "/files/1772410871175-sm2.png",
+    "githubLink": "",
+    "liveLink": ""
+  },
+  {
+    "id": "gio",
+    "title": " Gio's Pizza with AI Integrated ",
+    "description": "Gio's Pizza & Pasta Place is a premium, full-stack web application designed for an authentic Italian-American restaurant. The project modernizes the restaurant's digital presence by combining a visually stunning, responsive frontend with a real-time, AI-powered conversational ordering system.",
+    "techStack": [],
+    "image": "/files/1772411055289-gio.png",
+    "githubLink": "",
+    "liveLink": ""
+  },
+  {
+    "id": "GeoPulse",
+    "title": " GeoPulse: Crisis Similarity Engine ",
+    "description": "GeoPulse is a system that:\n\nTakes a region and timeframe (e.g., Sudan, 2023) and\n\nUses AI to identify historically similar crises elsewhere in the world, based on time-series data across conflict, climate, migration, economy, and health.\n\nThen summarizes those parallels, and offers AI-generated suggestions for humanitarian or policy intervention, based on what worked/didn’t in the similar past cases.\n",
+    "techStack": [],
+    "image": "/files/1772411110815-WhatsApp Image 2026-02-25 at 6.45.25 PM.jpeg",
+    "githubLink": "",
+    "liveLink": ""
+  }
+]

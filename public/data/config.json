@@ -1,0 +1,38 @@
+{
+  "name": "Malik Haroon Khokhar",
+  "role": "AI Engineer",
+  "bio": "Applied AI Engineer focused on designing and deploying intelligent systems from concept to production. Skilled in LLM architectures, RAG pipelines, computer vision, and scalable backend infrastructure across AWS and GCP. Experienced leading technical initiatives and delivering AI solutions across multiple domains. Driven to build robust, user-facing AI products that create measurable impact at scale",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Reinforcement Learning (PPO",
+    "Imitation Learning)",
+    "Transformers",
+    "RAG",
+    "Multi-Agent Systems",
+    "Computer Vision"
+  ],
+  "contactLinks": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/malikharoonkhokhar/"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/MalikHaroonKhokhar"
+    },
+    {
+      "id": "fiverr",
+      "label": "Fiverr",
+      "url": "https://www.fiverr.com/s/NNjPBwy"
+    },
+    {
+      "id": "upwork",
+      "label": "Upwork",
+      "url": "https://www.upwork.com/freelancers/~017de87cb645b5ed24?mp_source=share"
+    }
+  ],
+  "resumeLink": "/files/1772406418078-Resume.pdf"
+}
