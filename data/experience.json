@@ -1,0 +1,63 @@
+[
+  {
+    "role": " Chief Technology Officer",
+    "company": "OudenX",
+    "duration": "2026-Present",
+    "bullets": [
+      "Chief Technology Officer at OudenX, leading the design and deployment of scalable AI systems, LLM-powered architectures, and cloud infrastructure from concept to production"
+    ]
+  },
+  {
+    "role": "AI/ML Engineer",
+    "company": "Geniteam Solutions ",
+    "duration": "2025 - 2026",
+    "bullets": [
+      " End-to-End AI Project Leadership: Led a technical team in delivering full-cycle AI solutions across diverse domains, including Healthcare, Gaming, and Legal Tech. Oversaw architecture, development, and deployment of mission-critical models.",
+      "Game AI & Automation: Automated game testing and simulated intelligent in-game behavior using Unity and ML-Agents. Designed and trained Reinforcement Learning (RL) models (utilizing PPO and Imitation Learning) to control agents in complex 3D environments.",
+      "LLM & RAG Architectures: Built RAG-style systems and multi-agent pipelines, leveraging deep conceptual understanding of Transformer architectures (Attention QKV, embeddings, tokenization) for advanced inference workflows.",
+      "ML Operations (MLOps): Managed large-scale ML pipelines for data generation, preprocessing, and model evaluation. Integrated Computer Vision tasks into real-time environments to support game designers and engineers.",
+      "Backend & Systems: Developed high-performance Python backends using FastAPI and async patterns. Managed Linux environments, containerization, and CI/CD workflows to ensure robust deployment.",
+      "Cloud Infrastructure: Deployed and scaled AI applications using GCP, AWS, and Amazon Bedrock."
+    ]
+  },
+  {
+    "role": "AI Engineer",
+    "company": "Secret Labz",
+    "duration": "2025-2025",
+    "bullets": [
+      "Generative AI Integration: Designed dynamic, context-aware interview simulations that provide personalized feedback using OpenAI’s GPT APIs and advanced prompt engineering.",
+      "Full-Stack Architecture: Built a responsive end-to-end system integrating a React frontend with a high-performance Flask and PyTorch backend.",
+      "User Impact: Achieved a 30% improvement in user preparation outcomes, validated through engagement analytics and qualitative feedback loops.",
+      "Local LLM Deployment: Engineered a desktop voice assistant utilizing the DeepSeek R1 (7B) model via Ollama for privacy-focused, real-time natural language interaction.",
+      "Multimodal Pipelines: Integrated continuous speech-to-text (SpeechRecognition) and text-to-speech (pyttsx3) modules for fluid, hands-free communication.",
+      "Performance Optimization: Focused on low-latency inference and prompt optimization to ensure seamless voice-based productivity."
+    ]
+  },
+  {
+    "role": "Associate Software Engineer",
+    "company": "Opus AI",
+    "duration": "2024-2024",
+    "bullets": [
+      "Parametric Design & Game Physics: Developed fully parametrized interactive assets using Unreal Engine Blueprints and C++. Implemented complex physics systems from scratch to ensure high functionality and performance standards.",
+      "Computer Vision & Deep Learning: Engineered advanced CV solutions using PyTorch and OpenCV for real-time tracking, segmentation, and pattern recognition. Integrated state-of-the-art models like Segment Anything (SAM) and PaddleOCR for object detection and encoders.",
+      "Data Engineering & Automation: Automated large-scale data acquisition and preprocessing pipelines using Python. Handled data cleaning, augmentation, and noise removal to significantly improve model training accuracy and streamline workflows.",
+      "Technical Leadership: Served on the technical interview panel to assess candidates in programming and ML, contributing to the strategic growth and quality assurance of the engineering team."
+    ]
+  },
+  {
+    "role": "Assistant Programmer (Intern) ",
+    "company": "Punjab Employees Social Security Institute",
+    "duration": "2023-2023",
+    "bullets": [
+      "Worked as an Assistant programmer intern for PESSI, where I worked on the law management system for their legal department. During my two months of internship, I learned various MERN stack skills. "
+    ]
+  },
+  {
+    "role": "Mern Stack Developer (Intern)",
+    "company": "Punjab IT Board",
+    "duration": "2022-2022",
+    "bullets": [
+      "Did two months of internship as a MERN stack developer intern, worked on the DHA light system. Reverse engineered APIs and implemented them into the dashboard. Also made the replica of the dashboard."
+    ]
+  }
+]
