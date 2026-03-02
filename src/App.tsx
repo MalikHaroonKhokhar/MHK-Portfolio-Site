@@ -15,15 +15,21 @@ function App() {
     education: Education[];
   }>({ config: null, projects: [], experience: [], education: [] });
 
+  const resolvePath = (path?: string) => {
+    if (!path) return '';
+    if (path.startsWith('http')) return path;
+    return `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`;
+  };
+
   useEffect(() => {
     // Fetch data from public folder
     const fetchData = async () => {
       try {
         const [configRes, projectsRes, expRes, eduRes] = await Promise.all([
-          fetch('/data/config.json').then(res => res.ok ? res.json() : null),
-          fetch('/data/projects.json').then(res => res.ok ? res.json() : []),
-          fetch('/data/experience.json').then(res => res.ok ? res.json() : []),
-          fetch('/data/education.json').then(res => res.ok ? res.json() : [])
+          fetch(`${import.meta.env.BASE_URL}data/config.json`).then(res => res.ok ? res.json() : null),
+          fetch(`${import.meta.env.BASE_URL}data/projects.json`).then(res => res.ok ? res.json() : []),
+          fetch(`${import.meta.env.BASE_URL}data/experience.json`).then(res => res.ok ? res.json() : []),
+          fetch(`${import.meta.env.BASE_URL}data/education.json`).then(res => res.ok ? res.json() : [])
         ]);
 
         setData({
@@ -111,7 +117,7 @@ function App() {
                 <div key={p.id || i} className="border border-[#222] bg-[#111111] hover:border-green-500 transition-colors overflow-hidden group">
                   {p.image && (
                     <div className="h-32 w-full overflow-hidden bg-black/50">
-                      <img src={p.image} alt={p.title} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+                      <img src={resolvePath(p.image)} alt={p.title} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
                     </div>
                   )}
                   <div className="p-4">
@@ -140,7 +146,7 @@ function App() {
           return (
             <div className="border border-cyan-900 bg-[#0d1518] p-6 max-w-2xl my-4 rounded">
               <h2 className="text-cyan-400 text-2xl font-bold mb-2">__{p.title.toUpperCase()}</h2>
-              {p.image && <img src={p.image} alt={p.title} className="w-full h-48 object-cover mb-4 border border-cyan-900/50 opacity-80" />}
+              {p.image && <img src={resolvePath(p.image)} alt={p.title} className="w-full h-48 object-cover mb-4 border border-cyan-900/50 opacity-80" />}
               <p className="text-gray-300 leading-relaxed mb-6">{p.description}</p>
 
               <div className="flex flex-wrap gap-2 mb-6">
@@ -203,7 +209,7 @@ function App() {
             return (
               <div className="my-4 p-4 border border-green-900 bg-green-950/20 max-w-md">
                 <div className="text-green-400 mb-2">Resume document located at:</div>
-                <a href={data.config.resumeLink} target="_blank" rel="noreferrer" className="text-white underline hover:text-green-300">
+                <a href={resolvePath(data.config.resumeLink)} target="_blank" rel="noreferrer" className="text-white underline hover:text-green-300">
                   [Click to download / view PDF]
                 </a>
               </div>
